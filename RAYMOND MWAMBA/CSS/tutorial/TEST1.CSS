@@ -1,0 +1,24 @@
+oli{
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p{
+    margin-bottom: 0;
+}
+table{
+    border: none;
+    border-color: black;
+    border-spacing: 10px;
+    
+}
+td,th{
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: blue;
+}

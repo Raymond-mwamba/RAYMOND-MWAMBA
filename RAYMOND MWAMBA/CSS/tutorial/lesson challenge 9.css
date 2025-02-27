@@ -1,0 +1,28 @@
+.oliver{
+    border: none;
+    
+    margin-top: 2px;
+    font-size: 10px;
+    margin-left: 4px;
+}
+.gode{
+    width: 100px;
+    height: 70px;
+   
+    
+}
+.gd{
+    
+    
+    width: 100px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0,0, 0, 0.3);
+}
+.frnd{
+    background-color: rgb(16, 16, 151);
+    color: aliceblue;
+    border: none;
+    margin-left: 4px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

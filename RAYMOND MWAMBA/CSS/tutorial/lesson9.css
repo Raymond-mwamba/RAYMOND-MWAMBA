@@ -1,0 +1,40 @@
+.divid{
+    border-style: solid; 
+    border-width: 1px;
+    height: 80px;
+    width: 200px;
+    border-color: rgb(200, 200, 200);
+}
+.service{
+    margin-left: 10px;
+}
+.yeah{
+    margin-left: 10px;
+}
+.divide{
+    background-color: rgb(30, 28, 28);
+    height: 90px;
+    width: 350px;
+
+}
+.youtube{
+    color: aliceblue;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 8px;
+    padding-bottom: 1px;
+
+}
+.yeas{
+    padding-top: px;
+    color: rgb(200, 200, 200);
+    margin-left: 8px;
+}
+.new{
+    background-color: rgb(97, 7, 7);
+width: 100px;
+height: 100px;
+border-radius: 50px;
+margin-top: 10px;
+}

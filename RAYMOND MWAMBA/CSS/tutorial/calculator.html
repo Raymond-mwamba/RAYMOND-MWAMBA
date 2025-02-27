@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    
+</head>
+<body>
+    <button onclick="
+        console.log(calculation);
+        calculation+='1';">1</button>
+    <button >2</button>
+    <button>3</button>
+    <button>+</button>
+    <button>=</button>
+    <button onclick="
+    let my=Math.random();
+    let hii='';
+    if(my>=0 && my<1/3){
+     hii='Wife'; 
+    }
+    else if(my >=1/3 && my <2/3){
+        hii='Husband';
+    }
+      else if(my>2/3&& my<1) {
+        hii='Child';
+    }
+     console.log(hii);
+     let result='';
+     if(hii==='Wife'){
+        result='tie';
+     }
+      else if (hii==='Husband') {
+      result='Rock';
+      }
+    else if (hii==='Child') {
+        result='paper';
+    }
+    alert(`you picked ray. ${hii}. ${result}`)
+    ">Rock</button>
+    <script>
+        let calculation='';
+    </script>
+</body>
+</html>

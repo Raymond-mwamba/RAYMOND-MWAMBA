@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+       const amazon= {
+        basketball : 2095,
+        my:'ray',
+        'delivery-time':'3 days'
+       }
+       console.log(amazon);
+       amazon.basketball=amazon.basketball+50;
+       console.log(`${amazon.basketball}`);
+       amazon['new']='my wife';
+       console.log(amazon);
+       function compare(pr1,pr2) {
+        if (pr1.price<pr2.price) {
+            return pr1;
+        } else {
+            return pr2;
+        }
+    }
+        const pr1={
+            price:400
+        };
+        const pr2={
+            price:500
+        };
+        
+      let my =document.querySelector('.y').innerText=20
+      console.log(my )
+    console.log(compare(pr1,pr2));
+   
+    </script>
+  
+</body>
+</html>

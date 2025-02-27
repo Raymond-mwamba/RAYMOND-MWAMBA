@@ -1,0 +1,62 @@
+.first{
+padding-left: 10px;
+    display:inline-block ;
+    
+}
+.second{
+    display: inline-block;
+    padding-left: 10px;
+}
+.third{
+display: block;
+margin-top: 10px;
+width: 350px;
+border-style:  solid;
+
+border-width: 2px;
+border-radius: 4px;
+border-color: rgb(200, 200, 200);
+
+}
+.sign{
+    background-color: rgb(86, 86, 210);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-left: 10px;
+
+margin-top: 10px;
+height: 30px;
+width: 350px;
+}
+.loca{
+ background-color: beige;
+ border: none; 
+ width: 150px;
+ height: 25px; 
+ display: block; 
+ margin-bottom: 4px;
+}
+.enter{
+    background-color: beige;
+    border: none; 
+    width: 150px;
+    height: 25px;  
+    display: block;  
+}
+.now{
+    background-color: black;
+    color: white;
+    border: none;
+margin-top: 20px;
+margin-right: 10px;
+width: 120px;
+height: 20px;
+}
+.later{
+    background-color: gray;
+    color: black;
+    border: none;
+    width: 150px;
+    height: 25px;
+}

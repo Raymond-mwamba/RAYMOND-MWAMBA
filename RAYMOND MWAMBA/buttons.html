@@ -1,0 +1,57 @@
+ <style>
+ .SUB{
+     background-color:rgb(168, 32, 32);
+     color: rgb(241, 236, 236);
+     border: none;
+     height: 36px;
+     width: 100px;
+     border-radius: 4px;
+     cursor: pointer;
+     transition: opacity: 0.1s;
+ }
+ .SUB:hover{
+     opacity: 0.8;
+ }
+ .SUB:active{
+     opacity: 0.5;
+ }
+ 
+
+.now{
+    color: blue;
+    border-radius: 4px;
+    background-color: white;
+    border-color: rgb(99, 143, 224);
+    height: 30px; 
+    border-style: solid;
+    cursor: pointer;
+    width: 50px;
+    transition: background-color 1s, color 1s;
+}
+.now:hover{
+
+    color:white;
+    background-color:blue;
+}
+.now:active{
+    opacity: 0.5;
+}
+.x{
+    color:white;
+    background-color: rgb(55, 55, 255);
+  border: none;
+  font-weight: bold;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 10 px;
+    transition: box-shadow 0.15s;
+}
+.x:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15)
+}
+ </style>
+ 
+ <button class=" SUB  ">SUBSCRIBE</button>
+ <button class="now">JOIN</button>
+ <button class="x">TWEET </button>

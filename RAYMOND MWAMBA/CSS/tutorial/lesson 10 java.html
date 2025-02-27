@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    .amz{
+        background-color: rgb(255, 216, 20);
+        padding: 10px 50px;
+        border: none ;
+        border-radius: 20px;
+    }
+    .rq{
+        background-color: black;
+        color: white;
+        padding: 10px 14px;
+        border-radius: 8px;
+        border: none;
+    }
+    .sc{
+        color: black;
+        background-color: rba(230,230,230);
+        font-weight: bold;
+        padding: 10px 14px;
+        border: none;
+        border-radius: 4px;
+    }
+    .js-button{
+        border: none;
+        padding: 8px 14px;
+        border-radius: 8px;
+        color: black;
+        background-color: gainsboro;
+        cursor: pointer;
+    }
+    
+    .is-toggled{
+        color: rgb(234, 229, 229);
+        background-color: rgb(20, 20, 20);
+    }
+    
+   </style>
+</head>
+<body>
+    <button class="amz">
+        Add to Cart
+    </button>
+    <button></button>
+    <button class="rq">
+        Request now
+    </button>
+    <button class="sc">Schedule for later</button>
+    <button class="js-button  mee"
+    onclick="
+     const nm=  document.querySelector('.mee').innerHTML;
+     if (nm.classList.contains('is-toggled')) {
+        nm.classList.add('is-toggled');
+     }
+     else{
+        nm.classList.remove('is-toggled');
+     }">
+        Gaming
+    </button>
+    <script>
+    
+    </script>
+</body>
+</html>

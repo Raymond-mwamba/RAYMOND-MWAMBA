@@ -1,0 +1,89 @@
+/* styles.css */
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.logo-container {
+    display: flex;
+    position: absolute;
+    width: 350px;
+    top: 60px;
+    left: 130px;
+    align-items: center;
+    background-color: rgba(244, 241, 236, 0.596);
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.jubilee-logo {
+    text-align: center;
+    color: #e60050;
+    margin-right: 20px;
+}
+
+.jubilee-logo h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.jubilee-logo p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.separator {
+    width: 2px;
+    height: 60px;
+    background-color: #ddd;
+    margin: 0 20px;
+}
+
+.allianz-logo {
+    text-align: center;
+    color: #004a99;
+}
+
+.allianz-logo h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.circle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #004a99;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+.hey{
+    display: flex;
+    position: absolute;
+    top: 57%;
+    left: 28%;
+    height: 50px;
+    font-size: 20px;
+   justify-content: center;
+    border-radius: 28px;
+    align-items: center;
+    padding: 15px;
+   font-weight: bolder;
+   background-color: rgba(244, 241, 236, 0.596);
+    border: none;
+    font-family: Arial, sans-serif;
+}

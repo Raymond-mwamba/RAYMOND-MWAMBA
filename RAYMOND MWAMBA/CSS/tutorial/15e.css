@@ -1,0 +1,21 @@
+.dev1{
+background-color: darkgray;
+width: 200px;
+height: 200px;
+position: relative;
+}
+.gode{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 15px;
+    
+
+}
+.pas{
+    position: absolute;
+    right: 0;
+    top: 6px;
+    background-color: black;
+    color: white;
+}
